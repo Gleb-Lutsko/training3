@@ -1,0 +1,579 @@
+:root{
+    --white-color:#FFFFFF;
+    --accent-color:#0328EE;
+}
+body{
+    background-color: #010725;
+    font-family: 'DM Sans', sans-serif;
+    margin: 0;
+    color: var(--white-color);
+}
+button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+button {
+    padding: 0;
+    margin: 0;
+}
+ul,ol{
+    list-style: none;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.container{
+    max-width: 358px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* =============================HEADER============================= */
+.header{
+    padding-top: 20px;
+}
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.burger-open-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    background-color: var(--accent-color);
+    border-radius: 1000px;
+}
+/* =============================/HEADER============================= */
+/* =============================HERO============================= */
+.hero-title{
+    max-width: 341px;
+    margin-bottom: 16px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 1.21;
+    letter-spacing: -1px;
+}
+.hero-text{
+    max-width: 320px;
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.62;
+}
+.hero-link-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 41px;
+}
+.hero-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 358px;
+    height: 70px;
+    background-color:var(--accent-color) ;
+    border-radius: 80px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+}
+.hero-link:nth-of-type(2){
+    background: rgba(255, 255, 255, 0.1);
+}
+.hero-future-text{
+    margin-top: 81px;
+    margin-bottom: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.62;
+}
+.hero-future-list{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 16px;
+    column-gap: 40px;
+}
+/* =============================/HERO============================= */
+/* =============================BENEFITS============================= */
+.benefits-section{
+    padding-top: 65px;
+}
+.benefits-title{
+    width: 273px;
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.29;
+}
+.benefits-text{
+    margin-bottom: 16px;
+    width: 314px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.62;
+}
+.benefits-list-iphone, .benefits-list-two-iphone{
+    margin-right: auto;
+    margin-left: auto;
+}
+.benefits-list-container{
+    margin-bottom: 40px;
+
+}
+.benefits-list-container-top, .benefits-list-container-bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+.benefits-list-container-main{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding: 44px 22px 0px 33px;
+    background-color: var(--accent-color);
+    border-radius: 40px;
+}
+.benefits-list-container-top-wrapper, .benefits-list-container-bottom-wrapper{
+    padding: 48px 55px 48px 24px;
+    background-color: #010D50;
+    border-radius: 40px;
+}
+.benefits-list-icon-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 68px;
+    height: 68px;
+    margin-bottom: 20px;
+    background-color: var(--accent-color);
+    border-radius: 20px;
+}
+.benefits-list-container-main .benefits-list-title{
+    margin-bottom: 22px;
+    font-size: 20px;
+    line-height: 1.3;
+    letter-spacing: 1px;
+}
+.benefits-list-container-main .benefits-list-text{
+    margin-bottom: 24px;
+}
+.benefits-list-title{
+    margin-bottom: 7px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.44;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+}
+.benefits-list-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.62;
+}
+.benefits-list-iphone{
+    margin-right: auto;
+    margin-left: auto;
+}
+.benefits-bottom-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 210px;
+    height: 70px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 80px;
+
+    background-color: var(--accent-color);
+    border-radius: 80px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+}
+/* =============================/BENEFITS============================= */
+
+/* =============================EXPLORE============================= */
+.expoler-top-container{
+    margin-bottom: 80px;
+}
+.explore-title{
+    max-width: 305px;
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.29;
+}
+.explore-text{
+    max-width: 330px;
+    margin-bottom: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.62;
+
+}
+.explore-list{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+.explore-item{
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+.explore-list-icon-wrapper{
+    width: 46px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--accent-color);
+    border-radius: 13px;
+}
+.explore-list-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.62;
+}
+.explore-computer{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.explore-bottom-container{
+    padding: 40px 16px 0 16px;
+    background-color: var(--accent-color);
+}
+.explore-title-bottom{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+.explore-text-bottom{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.explore-link{
+    width: 358px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: var(--white-color);
+    border-radius: 80px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    color: var(--accent-color);
+}
+.explore-bottom-link{
+    margin-right: auto;
+    margin-left: auto;
+}
+/* =============================/EXPLORE============================= */
+/* =============================NEWS============================= */
+.news-container{
+    padding-top: 80px;
+}
+.news-title{
+    max-width: 305px;
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.29;
+}
+.news-text{
+    min-width: 330px;
+    margin-bottom: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.62;
+}
+.news-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+.news-item{
+    position: relative;
+    background-color: #010D50;
+    border-radius: 40px;
+}
+.news-list-computer{
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+.news-list-img-under-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 198px;
+    left: 24px;
+    width: 109px;
+    height: 36px;
+    background-color: var(--accent-color);
+    border-radius: 1000px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+}
+.news-item-main-container{
+    padding: 42px 23px 36px 24px;
+}
+.news-list-title{
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.41;
+}
+.news-list-text{
+    padding-bottom: 32px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.62;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.news-list-under-wrapper{
+    margin-top: 38px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}.news-list-under-man{
+    border-radius: 50%;
+}
+.news-list-under-title{
+    margin-bottom: 6px;
+    font-size: 16px;
+    line-height: 1.12;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+}
+.news-list-under-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.12;
+    letter-spacing: 0.8px;
+}
+.news-bottom-button{
+    width: 358px;
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 80px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    color: inherit;
+}
+/* =============================/NEWS============================= */
+
+/* =============================DOWNLOAD============================= */
+.download-container{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.download-title{
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.29;
+}
+.download-text{
+    width: 330px;
+    margin-bottom: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.62;
+}
+.download-list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.download-item{
+    padding-top: 32px;
+    padding-left: 32px;
+    background-color: #010D50;
+    border-radius: 40px;
+}
+.download-list-title{
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.29;
+}
+.download-list-text{
+    width: 293px;
+    margin-bottom: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.62;
+}
+.download-list-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: 193px;
+    height: 70px;
+    margin-bottom: 40px;
+
+    background-color: var(--accent-color);
+    border-radius: 80px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+}
+/* =============================/DOWNLOAD============================= */
+/* =============================FOOTER============================= */
+.footer{
+    background-color: #010D50;
+}
+.footer-container{
+padding: 40px 24px 63px 24px;
+}
+.footer-logo-icon{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 24px;
+}
+.footer-social-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 45px;
+}
+.footer-social-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 1000px;
+}
+.footer-title{
+    padding-bottom: 31px;
+    margin-bottom: 32px;
+    border-bottom: 1px solid var(--white-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.44;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+}
+.footer-nav-list{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 16px;
+    margin-bottom: 56px;
+}
+.footer-nav-item:nth-of-type(1){
+    margin-right: 127px;
+}
+.footer-nav-item:nth-of-type(3) {
+    margin-right: 121px;
+}
+.footer-nav-item:nth-of-type(5) {
+    margin-right: 113px;
+}
+.footer-nav-link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
+}
+.footer-bottom-wrapper{
+    padding: 44px 34px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 40px;
+    margin-bottom: 64px;
+}
+.footer-bottom-title{
+    margin-bottom: 18px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.44;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+}
+.footer-bottom-text{
+    margin-bottom: 18px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.78;
+}
+.footer-download-list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.footer-bottom-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: 274px;
+    height: 70px;
+
+    background-color: #0328EE;
+    border-radius: 80px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1;
+    letter-spacing: 1.6px;
+}
+.footer-copyright{
+    border-top: rgba(255, 255, 255, 0.3);
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    line-height: 1;
+}
+/* =============================/FOOTER============================= */

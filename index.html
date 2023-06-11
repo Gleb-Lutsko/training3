@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>123</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-container">
+        <a href="./index.html" class="header-logo"
+          ><svg class="header-logo-icon" width="136" height="48">
+            <use href="./img/icon/symbol-defs.svg#logo"></use>
+          </svg>
+        </a>
+        <button class="burger-open-button" type="button">
+          <svg class="burger-open-icon" width="25" height="20">
+            <use href="./img/icon/symbol-defs.svg#burger-open"></use>
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <!-- hero section -->
+      <section class="hero-section">
+        <div class="container">
+          <h1 class="hero-title">Buy, trade, and hold 350+ cryptocurrencies</h1>
+          <p class="hero-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat
+            nulla suspendisse tortor aenean dis placerat.
+          </p>
+          <div class="hero-link-wrapper">
+            <a class="hero-link">Download App</a>
+            <a class="hero-link">view pricing</a>
+          </div>
+          <picture>
+            <source
+              media="(min-width:768px)"
+              srcset="
+                ./img/hero/hero-computer-desk.png     1x,
+                ./img/hero/hero-computer-desk_@2x.png 2x
+              "
+              type="image/png"
+            />
+            <source
+              media="(max-width:767px)"
+              srcset="
+                ./img/hero/hero-computer-mob.png     1x,
+                ./img/hero/hero-computer-mob_@2x.png 2x
+              "
+              type="image/png"
+            />
+            <img src="./img/hero/hero-computer-mob.png" alt="computer" />
+          </picture>
+          <p class="hero-future-text">Crypto App has been featured on</p>
+          <ul class="hero-future-list">
+            <li class="hero-future-item">
+              <svg class="hero-future-icon" width="132" height="24">
+                <use href="./img/icon/symbol-defs.svg#company-1"></use>
+              </svg>
+            </li>
+            <li class="hero-future-item">
+              <svg class="hero-future-icon" width="132" height="24">
+                <use href="./img/icon/symbol-defs.svg#company-2"></use>
+              </svg>
+            </li>
+            <li class="hero-future-item">
+              <svg class="hero-future-icon" width="132" height="24">
+                <use href="./img/icon/symbol-defs.svg#company-3"></use>
+              </svg>
+            </li>
+            <li class="hero-future-item">
+              <svg class="hero-future-icon" width="132" height="24">
+                <use href="./img/icon/symbol-defs.svg#company-4"></use>
+              </svg>
+            </li>
+            <li class="hero-future-item">
+              <svg class="hero-future-icon" width="132" height="24">
+                <use href="./img/icon/symbol-defs.svg#company-5"></use>
+              </svg>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- benefits section -->
+      <section class="benefits-section">
+        <div class="container">
+          <h2 class="benefits-title">Build your crypto portfolio</h2>
+          <p class="benefits-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat
+            nulla suspendisse tortor aene.
+          </p>
+          <div class="benefits-list-container">
+            <div class="benefits-list-container-top">
+              <div class="benefits-list-container-top-wrapper">
+                <div class="benefits-list-icon-wrapper">
+                  <svg class="benefits-list-icon" width="42" height="41">
+                    <use href="./img/icon/symbol-defs.svg#arrows"></use>
+                  </svg>
+                </div>
+                <h3 class="benefits-list-title">Send & Receive</h3>
+                <p class="benefits-list-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Feugiat nulla suspendisse tortor aene.
+                </p>
+              </div>
+
+              <div class="benefits-list-container-top-wrapper">
+                <div class="benefits-list-icon-wrapper">
+                  <svg class="benefits-list-icon" width="43" height="39">
+                    <use href="./img/icon/symbol-defs.svg#wallet"></use>
+                  </svg>
+                </div>
+                <h3 class="benefits-list-title">100% Secure Wallet</h3>
+                <p class="benefits-list-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Feugiat nulla suspendisse tortor aene.
+                </p>
+              </div>
+            </div>
+            <div class="benefits-list-container-main">
+              <h3 class="benefits-list-title">iOS & Android App</h3>
+              <p class="benefits-list-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                amet, morbi non at sed neque.
+              </p>
+              <picture
+                ><source
+                  media="(min-width:768px)"
+                  srcset="
+                    ./img/benefits/benfits-iphone-desk.png     1x,
+                    ./img/benefits/benfits-iphone-desk_@2x.png 2x
+                  "
+                  type="image/png"
+                />
+                <source
+                  media="(max-width:767px)"
+                  srcset="
+                    ./img/benefits/benfits-iphone-mob.png     1x,
+                    ./img/benefits/benfits-iphone-mob_@2x.png 2x
+                  "
+                  type="image/png"
+                />
+                <img
+                  src="./img/benefits/benfits-iphone-mob.png"
+                  class="benefits-list-iphone"
+                  alt="iphone"
+                />
+              </picture>
+            </div>
+            <div class="benefits-list-container-bottom">
+              <div class="benefits-list-container-bottom-wrapper">
+                <div class="benefits-list-icon-wrapper">
+                  <svg class="benefits-list-icon" width="42" height="42">
+                    <use href="./img/icon/symbol-defs.svg#charts">
+                      Trading Charts
+                    </use>
+                  </svg>
+                </div>
+                <h3 class="benefits-list-title"></h3>
+                <p class="benefits-list-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Feugiat nulla suspendisse tortor aene.
+                </p>
+              </div>
+
+              <div class="benefits-list-container-bottom-wrapper">
+                <div class="benefits-list-icon-wrapper">
+                  <svg class="benefits-list-icon" width="58" height="47">
+                    <use href="./img/icon/symbol-defs.svg#circle-arrows"></use>
+                  </svg>
+                </div>
+                <h3 class="benefits-list-title">Real Time Trading</h3>
+                <p class="benefits-list-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Feugiat nulla suspendisse tortor aene.
+                </p>
+              </div>
+            </div>
+          </div>
+          <a class="benefits-bottom-link">Download App</a>
+        </div>
+      </section>
+
+      <!-- explore-section -->
+      <section class="explore-section">
+        <div class="container">
+          <div class="expoler-top-container">
+            <picture
+              ><source
+                media="(min-width:768px)"
+                srcset="
+                  ./img/explore/explore-two-iphone-desk.png     1x,
+                  ./img/explore/explore-two-iphone-desk_@2x.png 2x
+                "
+                type="image/png"
+              />
+              <source
+                media="(max-width:767px)"
+                srcset="
+                  ./img/explore/explore-two-iphone-mob.png     1x,
+                  ./img/explore/explore-two-iphone-mob_@2x.png 2x
+                "
+                type="image/png"
+              />
+              <img
+                src="./img/explore/explore-two-iphone-mob.png"
+                alt="two iphone"
+                class="benefits-list-two-iphone"
+              />
+            </picture>
+            <div class="explore-top-main-container">
+              <h2 class="explore-title">
+                Earn daily rewards on your idle tokens
+              </h2>
+              <p class="explore-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat
+                nulla suspendisse tortor aene.
+              </p>
+              <ul class="explore-list">
+                <li class="explore-item">
+                  <div class="explore-list-icon-wrapper">
+                    <svg class="explore-list-icon" width="32" height="32">
+                      <use href="./img/icon/symbol-defs.svg#arrow-down"></use>
+                    </svg>
+                  </div>
+                  <p class="explore-list-text">Lowest fees in market</p>
+                </li>
+                <li class="explore-item">
+                  <div class="explore-list-icon-wrapper">
+                    <svg class="explore-list-icon" width="36" height="37">
+                      <use href="./img/icon/symbol-defs.svg#lightning"></use>
+                    </svg>
+                  </div>
+                  <p class="explore-list-text">Fast and secure transactions</p>
+                </li>
+                <li class="explore-item">
+                  <div class="explore-list-icon-wrapper">
+                    <svg class="explore-list-icon" width="25" height="37">
+                      <use href="./img/icon/symbol-defs.svg#lock"></use>
+                    </svg>
+                  </div>
+                  <p class="explore-list-text">256-bit secure encryption</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="explore-center-container">
+            <div class="explore-center-main-container">
+              <h2 class="explore-title">
+                Earn daily rewards on your idle tokens
+              </h2>
+              <p class="explore-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat
+                nulla suspendisse tortor aene.
+              </p>
+              <ul class="explore-list">
+                <li class="explore-item">
+                  <div class="explore-list-icon-wrapper">
+                    <svg class="explore-list-icon" width="28" height="33">
+                      <use href="./img/icon/symbol-defs.svg#secutrity"></use>
+                    </svg>
+                  </div>
+                  <p class="explore-list-text">100% Private data</p>
+                </li>
+                <li class="explore-item">
+                  <div class="explore-list-icon-wrapper">
+                    <svg class="explore-list-icon" width="37" height="37">
+                      <use href="./img/icon/symbol-defs.svg#guarantee"></use>
+                    </svg>
+                  </div>
+                  <p class="explore-list-text">99.99% Uptime guarantee</p>
+                </li>
+                <li class="explore-item">
+                  <div class="explore-list-icon-wrapper">
+                    <svg class="explore-list-icon" width="32" height="32">
+                      <use href="./img/icon/symbol-defs.svg#support"></use>
+                    </svg>
+                  </div>
+                  <p class="explore-list-text">24/7 Dedicated support</p>
+                </li>
+              </ul>
+            </div>
+            <picture>
+              <source
+                media="(min-width:768px)"
+                srcset="
+                  ./img/explore/explore-computer-desk.png     1x,
+                  ./img/explore/explore-computer-desk_@2x.png 2x
+                "
+                type="image/png"
+              />
+              <source
+                media="(max-width:767px)"
+                srcset="
+                  ./img/explore/explore-computer-mob.png     1x,
+                  ./img/explore/explore-computer-mob_@2x.png 2x
+                "
+                type="image/png"
+              />
+              <img
+                src="./img/explore/explore-computer-mob.png"
+                class="explore-computer"
+                alt="computer"
+              />
+            </picture>
+          </div>
+        </div>
+        <div class="explore-bottom-container">
+          <div class="explore-main-bottom-container">
+            <h2 class="explore-title explore-title-bottom">
+              Explore endless possibilities with FinanceFlow
+            </h2>
+            <p class="explore-text explore-text-bottom">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat
+              nulla suspendisse tortor aene.
+            </p>
+            <a href="" class="explore-link">Download App</a>
+          </div>
+          <picture>
+            <source
+              media="(min-width:768px)"
+              srcset="
+                ./img/explore/explore-two-iphone-bottom-desk.png     1x,
+                ./img/explore/explore-two-iphone-bottom-desk_@2x.png 2x
+              "
+              type="image/png"
+            />
+            <source
+              media="(max-width:767px)"
+              srcset="
+                ./img/explore/explore-two-iphone-bottom-mob.png     1x,
+                ./img/explore/explore-two-iphone-bottom-mob_@2x.png 2x
+              "
+              type="iamge/png"
+            />
+            <img
+              src="./img/explore/explore-two-iphone-bottom-mob.png"
+              alt="two iphone"
+              class="explore-bottom-link"
+            />
+          </picture>
+        </div>
+      </section>
+
+      <!-- news section -->
+      <section class="news-section">
+        <div class="container news-container">
+          <h1 class="news-title">Browse our latest news</h1>
+          <p class="news-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit non
+            neque orci amet, amet .
+          </p>
+          <ul class="news-list">
+            <li class="news-item">
+              <img
+                src="./img/news/news-list-img.jpg"
+                srcset="./img/news/news-list-img_@2x.jpg 2x"
+                alt="computer"
+                width="382"
+                height="215"
+                class="news-list-computer"
+              />
+              <div class="news-item-main-container">
+                <p class="news-list-img-under-text">Products</p>
+                <h3 class="news-list-title">The Basics about Cryptocurrency</h3>
+                <p class="news-list-text">
+                  Lorem ipsum dolor sit ametero irseo, consectetur adipiscing
+                  elit. Scelerisque viverra donec diammeo.
+                </p>
+                <div class="news-list-under-wrapper">
+                  <img
+                    src="./img/news/news-list-under-man.png"
+                    alt="man"
+                    width="60"
+                    height="60"
+                    class="news-list-under-man"
+                  />
+                  <div class="news-list-under-text-wrapper">
+                    <h3 class="news-list-under-title">Alex Turner</h3>
+                    <p class="news-list-under-text">August 2, 2021</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="news-item">
+              <img
+                src="./img/news/news-list-img.jpg"
+                srcset="./img/news/news-list-img_@2x.jpg 2x"
+                alt="computer"
+                width="382"
+                height="215"
+                class="news-list-computer"
+              />
+              <div class="news-item-main-container">
+                <p class="news-list-img-under-text">Products</p>
+                <h3 class="news-list-title">The Basics about Cryptocurrency</h3>
+                <p class="news-list-text">
+                  Lorem ipsum dolor sit ametero irseo, consectetur adipiscing
+                  elit. Scelerisque viverra donec diammeo.
+                </p>
+                <div class="news-list-under-wrapper">
+                  <img
+                    src="./img/news/news-list-under-man.png"
+                    alt="man"
+                    width="60"
+                    height="60"
+                    class="news-list-under-man"
+                  />
+                  <div class="text-wrapper">
+                    <h3 class="news-list-under-title">Alex Turner</h3>
+                    <p class="news-list-under-text">August 2, 2021</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="news-item">
+              <img
+                src="./img/news/news-list-img.jpg"
+                srcset="./img/news/news-list-img_@2x.jpg 2x"
+                alt="computer"
+                width="382"
+                height="215"
+                class="news-list-computer"
+              />
+              <div class="news-item-main-container">
+                <p class="news-list-img-under-text">Products</p>
+                <h3 class="news-list-title">The Basics about Cryptocurrency</h3>
+                <p class="news-list-text">
+                  Lorem ipsum dolor sit ametero irseo, consectetur adipiscing
+                  elit. Scelerisque viverra donec diammeo.
+                </p>
+                <div class="news-list-under-wrapper">
+                  <img
+                    src="./img/news/news-list-under-man.png"
+                    alt="man"
+                    width="60"
+                    height="60"
+                    class="news-list-under-man"
+                  />
+                  <div class="text-wrapper">
+                    <h3 class="news-list-under-title">Alex Turner</h3>
+                    <p class="news-list-under-text">August 2, 2021</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <button class="news-bottom-button" type="button">
+            View All Articles
+          </button>
+        </div>
+      </section>
+
+      <!-- download section -->
+      <section class="download-section">
+        <div class="container download-container">
+          <h2 class="download-title">Download our app</h2>
+          <p class="download-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit non
+            neque orci amet, amet .
+          </p>
+          <ul class="download-list">
+            <li class="download-item">
+              <h3 class="download-list-title">Download for iOS</h3>
+              <p class="download-list-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+                sed nulla integer in pellentesque tortor semper elementum.
+                Felis.
+              </p>
+              <a href="" class="download-list-link">
+                <svg class="download-list-icon" width="23" height="28">
+                  <use href="./img/icon/symbol-defs.svg#apple"></use>
+                </svg>
+                App Store
+              </a>
+              <picture
+                ><source
+                  media="(min-width:768px)"
+                  srcset="
+                    ./img/news/news-iphone-desk.png     1x,
+                    ./img/news/news-iphone-desk_@2x.png 2x
+                  "
+                  type="image/png"
+                />
+                <source
+                  media="(max-width:767px)"
+                  srcset="
+                    ./img/news/news-iphone-mob.png     1x,
+                    ./img/news/news-iphone-mob_@2x.png 2x
+                  "
+                  type="image/png"
+                />
+                <img src="./img/news/news-iphone-mob.png" alt="iphone" />
+              </picture>
+            </li>
+            <li class="download-item">
+              <h3 class="download-list-title">Download for Android</h3>
+              <p class="download-list-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+                sed nulla integer in pellentesque tortor semper elementum.
+                Felis.
+              </p>
+              <a href="" class="download-list-link">
+                <svg class="download-list-icon" width="23" height="25">
+                  <use href="./img/icon/symbol-defs.svg#play-store"></use>
+                </svg>
+                PLAY STORE
+              </a>
+              <picture
+                ><source
+                  media="(min-width:768px)"
+                  srcset="
+                    ./img/news/news-samsung-desk.png     1x,
+                    ./img/news/news-samsung-desk_@2x.png 2x
+                  "
+                  type="image/png"
+                />
+                <source
+                  media="(max-width:767px)"
+                  srcset="
+                    ./img/news/news-samsung-mob.png     1x,
+                    ./img/news/news-samsung-mob_@2x.png 2x
+                  "
+                  type="image/png"
+                />
+                <img src="./img/news/news-samsung-mob.png" alt="samsung" />
+              </picture>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-container">
+        <svg class="footer-logo-icon" width="154" height="30">
+          <use href="./img/icon/symbol-defs.svg#footer-logo"></use>
+        </svg>
+
+        <ul class="footer-social-list">
+          <li class="footer-social-item">
+            <a href="" class="footer-social-link">
+              <svg class="footer-social-icon" width="20" height="20">
+                <use href="./img/icon/symbol-defs.svg#instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-social-item">
+            <a href="" class="footer-social-link">
+              <svg class="footer-social-icon" width="20" height="20">
+                <use href="./img/icon/symbol-defs.svg#facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-social-item">
+            <a href="" class="footer-social-link">
+              <svg class="footer-social-icon" width="20" height="20">
+                <use href="./img/icon/symbol-defs.svg#linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+        <h2 class="footer-title">Menu</h2>
+        <ul class="footer-nav-list">
+          <li class="footer-nav-item">
+            <a href="./index.html" class="footer-nav-link">home</a>
+          </li>
+          <li class="footer-nav-item">
+            <a href="" class="footer-nav-link">tokens</a>
+          </li>
+          <li class="footer-nav-item">
+            <a href="" class="footer-nav-link">about</a>
+          </li>
+          <li class="footer-nav-item">
+            <a href="" class="footer-nav-link">blog</a>
+          </li>
+          <li class="footer-nav-item">
+            <a href="" class="footer-nav-link">pricing</a>
+          </li>
+          <li class="footer-nav-item">
+            <a href="" class="footer-nav-link">contact us</a>
+          </li>
+        </ul>
+        <div class="footer-bottom-wrapper">
+          <h2 class="footer-bottom-title">Download our Application</h2>
+          <p class="footer-bottom-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed
+            nulla integer
+          </p>
+          <ul class="footer-download-list">
+            <li>
+              <a href="" class="footer-bottom-link">
+                <svg class="download-list-icon" width="23" height="25">
+                  <use href="./img/icon/symbol-defs.svg#play-store"></use>
+                </svg>
+                PLAY STORE
+              </a>
+            </li>
+            <li>
+              <a href="" class="footer-bottom-link">
+                <svg class="download-list-icon" width="23" height="28">
+                  <use href="./img/icon/symbol-defs.svg#apple"></use>
+                </svg>
+                App Store
+              </a>
+            </li>
+          </ul>
+        </div>
+        <p class="footer-copyright">All rights reserved</p>
+      </div>
+    </footer>
+  </body>
+</html>
